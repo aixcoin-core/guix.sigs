@@ -5,10 +5,10 @@ This repository contains Guix attestations for releases of Bitcoin Core.
 The Guix build consists of two stages:
 
 - In the first stage (`noncodesigned`), people compile the binaries from source.
-- Then, code signatures for Windows and MacOS are generated from the binaries that were produced in the first stage, and [distributed](https://github.com/bitcoin-core/bitcoin-detached-sigs) to the builders.
+- Then, code signatures for Windows and MacOS are generated from the binaries that were produced in the first stage, and [distributed](https://github.com/aixcoin-core/aixcoin-detached-sigs) to the builders.
 - In the second stage (`all`), the builders attach these code signatures.
 
-See https://github.com/bitcoin/bitcoin/blob/master/doc/release-process.md#building on how to build the release with Guix and create an attestation.
+See https://github.com/aixcoin/aixcoin/blob/master/doc/release-process.md#building on how to build the release with Guix and create an attestation.
 
 ## Directory structure
 

@@ -80,7 +80,7 @@ def print_summaries(data):
                         artifacts[artifact][hashsum] = 0
                     artifacts[artifact][hashsum] += 1
 
-            SHORT_ARTIFACT_REPLACE = f"bitcoin-{release}-"
+            SHORT_ARTIFACT_REPLACE = f"aixcoin-{release}-"
             artifact_max_length = max(
                 [
                     len(artifact.replace(SHORT_ARTIFACT_REPLACE, ""))
