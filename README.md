@@ -1,4 +1,4 @@
-This repository contains Guix attestations for releases of Bitcoin Core.
+This repository contains Guix attestations for releases of Aixcoin Core.
 
 ## Overall process
 
